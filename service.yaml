@@ -4,7 +4,7 @@ metadata:
   name: myservice
 spec:
   selector:
-    app: web
+    app: ceph_web
   ports:
   - protocol: TCP
     port: 80
